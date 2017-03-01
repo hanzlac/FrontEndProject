@@ -2,6 +2,8 @@ body{
     border: 2px solid black;
     padding: 5px;
     background: lightgrey;
+    text-align: center;
+    font-family: sans-serif;
 
 }
 
@@ -17,37 +19,37 @@ nav{
     height: 25px;
 }
 
-    #sectionleft {
-        border: 2px solid black;
-        background-color: cornsilk;
-        float: left;
-        margin-top: 10px;
-        height: 575px;
-        padding: 20px;
-        width: 500px;
-    }
-    #hleft {
-        background-color: white;
-        border: 2px solid black;
-        padding: 10px;
+#sectionleft {
+    border: 2px solid black;
+    background-color: cornsilk;
+    float: left;
+    margin-top: 10px;
+    height: 575px;
+    padding: 20px;
+    width: 500px;
+}
+#hleft {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
 
-    }
-    nav {
-        border: solid black 2px;
-        background-color: whitesmoke;
-        margin-outside: 10px;
-        margin-top: 5px;
-        height: 80%;
-        text-align: center;
-    }
-    footer {
-        border: solid black 2px;
-        padding: 10px;
-        margin-outside: 10px;
-        margin-top: 7px;
-    }
+}
+nav {
+    border: solid black 2px;
+    background-color: whitesmoke;
+    margin-outside: 10px;
+    margin-top: 5px;
+    height: 80%;
+    text-align: center;
+}
+footer {
+    border: solid black 2px;
+    padding: 10px;
+    margin-outside: 10px;
+    margin-top: 7px;
+}
 #sectionright{
-   border: 2px solid black;
+    border: 2px solid black;
     height: 575px;
     float: right;
     margin-top: 10px;
@@ -67,4 +69,80 @@ nav{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+#sectionright header  {
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding:5px;
+    margin-outside:10px;
+}
+#sectionright p {
+    border:2px solid black;
+    background-color: white;
+    padding:5px;
+    margin-outside: 10px;
+}
 
+#sectionright footer {
+    border:solid black 2px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-outside: 10px;
+    margin-top: 25px;
+}
+#sectionright #arbottom {
+    border:solid black 2px;
+    background-color: whitesmoke;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+#sectionright #arbottom header {
+    border:solid black 2px;
+    background-color: whitesmoke;
+    padding:10px;
+    margin-bottom: 1px;
+
+}
+#sectionright #arbottom p{
+    border:solid black 2px;
+    background-color: whitesmoke;
+    float: left;
+    height: 50px;
+    width:329px;
+    padding:10px;
+}
+
+#sectionright #arbottom aside {
+    border:solid black 2px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    float: right;
+    padding: 9px;
+    width: 260px;
+    height: 50px;
+
+}
+
+#sectionright #arbottom #farbelow {
+    border: solid black 2px;
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    height: 20px;
+    padding: 10px;
+}
+#sectionright #arbottom #fdown {
+    border: solid black 2px;
+    background-color:whitesmoke;
+    margin-top: 5px;
+    padding: 10px;
+}
+body #fbelow {
+    text-align: center;
+    border: solid black 2px;
+    padding: 10px;
+    background-color: #ff2a47;
+    alignment: center;
+    margin-top: 640px;
+}

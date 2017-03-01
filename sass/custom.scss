@@ -1,0 +1,154 @@
+.DefaultBorder{
+  border: 2px solid black ;
+
+}
+
+body{
+  @extend .DefaultBorder;
+  padding: 5px;
+  background: lightgrey;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+header{
+  @extend .DefaultBorder;
+  padding: 8px;
+  background-color: white;
+}
+nav{
+  @extend .DefaultBorder;
+  background-color: white;
+  padding: 3px;
+  height: 25px;
+}
+
+#sectionleft {
+  @extend .DefaultBorder;
+  background-color: cornsilk;
+  float: left;
+  margin-top: 10px;
+  height: 575px;
+  padding: 20px;
+  width: 500px;
+}
+#hleft {
+  background-color: white;
+  @extend .DefaultBorder;
+  padding: 10px;
+
+}
+  nav {
+    @extend .DefaultBorder;
+       background-color: whitesmoke;
+       margin-outside: 10px;
+        margin-top: 5px;
+       height: 80%;
+      text-align: center;
+}
+footer {
+  @extend .DefaultBorder;
+  padding: 10px;
+  margin-outside: 10px;
+  margin-top: 7px;
+}
+#sectionright{
+  @extend .DefaultBorder;
+  height: 575px;
+  float: right;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: blanchedalmond;
+
+}
+#hright {
+  @extend .DefaultBorder;
+  alignment: center;
+  padding: 8px;
+  margin-outside: 10px
+}
+#arup {
+  @extend .DefaultBorder;
+  padding: 10px;
+  margin-outside: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#sectionright header  {
+  @extend .DefaultBorder;
+  background-color: aliceblue;
+  padding:5px;
+  margin-outside:10px;
+}
+#sectionright p {
+  @extend .DefaultBorder;
+  background-color: white;
+  padding:5px;
+  margin-outside: 10px;
+}
+
+#sectionright footer {
+  @extend .DefaultBorder;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-outside: 10px;
+  margin-top: 25px;
+}
+#sectionright #arbottom {
+  @extend .DefaultBorder;
+  background-color: whitesmoke;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 1px;
+}
+
+#sectionright #arbottom header {
+  @extend .DefaultBorder;
+  background-color: whitesmoke;
+  padding:10px;
+  margin-bottom: 1px;
+
+}
+#sectionright #arbottom p{
+  @extend .DefaultBorder;
+  background-color: whitesmoke;
+  float: left;
+  height: 50px;
+  width:329px;
+  padding:10px;
+}
+
+#sectionright #arbottom aside {
+  @extend .DefaultBorder;
+  background-color: whitesmoke;
+  margin-top: 5px;
+  float: right;
+  padding: 9px;
+  width: 260px;
+  height: 50px;
+
+}
+
+#sectionright #arbottom #farbelow {
+  @extend .DefaultBorder;
+  background-color: whitesmoke;
+  margin-top: 100px;
+  margin-bottom: 5px;
+  height: 20px;
+  padding: 10px;
+}
+#sectionright #arbottom #fdown {
+  @extend .DefaultBorder;
+  background-color:whitesmoke;
+  margin-top: 5px;
+  padding: 10px;
+}
+body #fbelow {
+  text-align: center;
+  @extend .DefaultBorder;
+  padding: 10px;
+  background-color: #ff2a47;
+  alignment: center;
+  margin-top: 640px;
+}
